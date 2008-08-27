@@ -14,7 +14,7 @@ window.onload = function(){
 google.load("jquery", "1.2.6");\n\
 google.load("jqueryui", "1.5.2");\n\
 </script>\n\
-<script type="text/javascript" src="http://gg.agrr.org/js/iDelicious.js"></script>\n\
+<script type="text/javascript" src="http://code.google.com/p/idelicious/source/browse/trunk/js/iDelicious.js"></script>\n\
 <script>\n\
 google.load("jquery", "1.2.6");\n\
 google.load("jqueryui", "1.5.2");\n\
