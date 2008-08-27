@@ -1,0 +1,21 @@
+<script src="http://www.google.com/jsapi"></script>
+<script>
+google.load("jquery", "1.2.6");
+google.load("jqueryui", "1.5.2");
+</script>
+<script type="text/javascript" src="http://gg.agrr.org/js/iDelicious.js"></script>
+<script>
+google.load("jquery", "1.2.6");
+google.load("jqueryui", "1.5.2");
+window.onload = function(){
+$('#place_for_image').iDelicious({
+    user: "akira.spb", //username
+    count: 15, //count urls: max 15
+    col: 3, //Cols
+    pathToPreloadImage: '/images/load.gif', //Path to preload image
+    startTop:0, //Start absolute position in top
+    startLeft: 0 //Start absolute position in left
+});
+}
+</script>
+<div id="place_for_image"></div>
