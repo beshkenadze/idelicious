@@ -15,7 +15,7 @@
         $.getJSON("http://feeds.delicious.com/v2/json/" + defaults.user + "?callback=?", function(data){
             $("#load").remove();
 			$.each(data, function(i, item){
-                $("<img/>").attr('title',item.u).attr("src", 'http://images.websnapr.com/?size=s&key=46Psp0wjLQo5&url=' + item.u).css('width', '100px').css('cursor', 'pointer').attr('class', defaults.setClass).appendTo(el);
+                $("<img/>").attr('title',item.u).attr('alt',item.d).attr("src", 'http://images.websnapr.com/?size=s&key=46Psp0wjLQo5&url=' + item.u).css('width', '100px').css('cursor', 'pointer').attr('class', defaults.setClass).appendTo(el);
                 if (i + 1 == defaults.count) 
                     return false
             });
